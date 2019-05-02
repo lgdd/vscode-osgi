@@ -1,0 +1,52 @@
+{
+    "name": "osgi",
+    "displayName": "OSGi",
+    "description": "OSGi / Bnd support for VS Code",
+    "version": "0.0.1",
+    "license": "MIT",
+    "engines": {
+        "vscode": "^1.33.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "OSGi",
+                "aliases": [
+                    "OSGi", "osgi",
+                    "Bnd", "bnd"
+                ],
+                "extensions": [
+                    ".MF",
+                    ".bnd"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "OSGi",
+                "scopeName": "source.osgi",
+                "path": "./syntaxes/osgi.tmLanguage.json"
+            }
+        ]
+    },
+	"activationEvents": [
+		"*"
+	],
+    "main": "./out/extension.js",
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./",
+        "postinstall": "node ./node_modules/vscode/bin/install"
+    },
+    "devDependencies": {
+        "@types/node": "^10.12.18",
+        "tslint": "^5.11.1",
+        "typescript": "^3.2.4",
+        "vscode": "^1.1.27"
+    }
+}

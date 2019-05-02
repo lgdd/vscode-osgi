@@ -1,0 +1,21 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "OSGi",
+	"patterns": [
+		{
+			"include": "#headers"
+		}
+	],
+	"repository": {
+		"headers": {
+			"name": "keyword.other.header.osgi",
+			"patterns": [
+				{
+					"name": "keyword.other.headername.osgi",
+					"match": "^([A-Z]){1}([a-zA-Z]|-|_|\\d)*(: ).*$"
+				}
+			]
+		}
+	},
+	"scopeName": "source.osgi"
+}
