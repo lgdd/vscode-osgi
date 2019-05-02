@@ -4,6 +4,7 @@ import * as vscode from 'vscode';
 
 export function getStandardOsgiHeaders(headerEnd: string) {
     return [
+        // https://github.com/JetBrains/intellij-community/blob/master/java/manifest/src/org/jetbrains/lang/manifest/header/impl/StandardManifestHeaderParsers.java
         new vscode.CompletionItem('Manifest-Version' + headerEnd),
         new vscode.CompletionItem('Created-By' + headerEnd),
         new vscode.CompletionItem('Signature-Version' + headerEnd),
