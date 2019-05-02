@@ -4,7 +4,7 @@ import * as vscode from 'vscode';
 
 export function getStandardOsgiHeaders() {
     return [
-        //new vscode.CompletionItem('Manifest-Version'),
+        new vscode.CompletionItem('Manifest-Version'),
         new vscode.CompletionItem('Created-By'),
         new vscode.CompletionItem('Signature-Version'),
         new vscode.CompletionItem('Class-Path'),
