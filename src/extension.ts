@@ -12,11 +12,15 @@ export function activate(context: vscode.ExtensionContext) {
 		provideCompletionItems(document: vscode.TextDocument, position: vscode.Position, token: vscode.CancellationToken, context: vscode.CompletionContext) {
 			const headerEnd = ": ";
 
-			const standardOsgiHeaders = getStandardOsgiHeaders(headerEnd);
-			const bndOsgiHeaders = getBndOsgiHeaders(headerEnd);
-			const liferayOsgiHeaders = getLiferayOsgiHeaders(headerEnd);
+			const standardOsgiHeaders = getStandardOsgiHeaders();
+			const bndOsgiHeaders = getBndOsgiHeaders();
+			const liferayOsgiHeaders = getLiferayOsgiHeaders();
 
 			const headers = standardOsgiHeaders.concat(bndOsgiHeaders).concat(liferayOsgiHeaders);
+
+			headers.forEach(header => {
+				header.insertText = header.label + headerEnd;
+			});
 
 			return headers;
 		}
