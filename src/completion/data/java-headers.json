@@ -1,0 +1,62 @@
+[
+    {
+        "label": "Created-By",
+        "snippet": "$1",
+        "description": "**Java version** used in build."
+    },
+    {
+        "label": "Implementation-Version",
+        "snippet": "$1",
+        "description": ""
+    },
+    {
+        "label": "Implementation-Vendor",
+        "snippet": "$1",
+        "description": ""
+    },
+    {
+        "label": "Implementation-Vendor-Id",
+        "snippet": "$1",
+        "description": ""
+    },
+    {
+        "label": "Implementation-URL",
+        "snippet": "$1",
+        "description": ""
+    },
+    {
+        "label": "Main-Class",
+        "snippet": "$1",
+        "description": ""
+    },
+    {
+        "label": "Manifest-Version",
+        "snippet": "$1",
+        "description": ""
+    },
+    {
+        "label": "Name",
+        "snippet": "$1",
+        "description": ""
+    },
+    {
+        "label": "Sealed",
+        "snippet": "$1",
+        "description": ""
+    },
+    {
+        "label": "Specification-Title",
+        "snippet": "$1",
+        "description": ""
+    },
+    {
+        "label": "Specification-Version",
+        "snippet": "$1",
+        "description": ""
+    },
+    {
+        "label": "Specification-Vendor",
+        "snippet": "$1",
+        "description": ""
+    }
+]

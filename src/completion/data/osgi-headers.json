@@ -57,7 +57,7 @@
     {
         "label": "Bundle-Icon",
         "snippet": "$1",
-        "description": ""
+        "description": "The _optional_ **Bundle-Icon** header provides a list of URLs to icons representing this bundle in different sizes. The URLs are interpreted as relative to the bundle."
     },
     {
         "label": "Bundle-License",
@@ -67,7 +67,7 @@
     {
         "label": "Bundle-Localization",
         "snippet": "$1",
-        "description": ""
+        "description": "The **Bundle-Localization** header contains the location in the bundle where localization files can be found. The default value is OSGI-INF/l10n/bundle."
     },
     {
         "label": "Bundle-ManifestVersion",
@@ -90,6 +90,11 @@
         "description": "The **Bundle-RequiredExecutionEnvironment** contains a comma-separated list of execution environments that must be present on the OSGi framework. See Execution Environment on page 44. _This header is deprecated_."
     },
     {
+        "label": "Bundle-SCM",
+        "snippet": "$1",
+        "description": "The **Bundle-SCM** header provides an optional machine readable form of information about the source code of the bundle. This header is purely informational and must not be processed by the OSGi Framework."
+    },
+    {
         "label": "Bundle-SymbolicName",
         "snippet": "$1",
         "description": "The **Bundle-SymbolicName** header specifies a non-localizable name for this bundle. The bundle symbolic name together with a version must identify a unique bundle though it can be installed multiple times in a framework. **The bundle symbolic name should be based on the reverse domain name convention**."
@@ -97,17 +102,17 @@
     {
         "label": "Bundle-UpdateLocation",
         "snippet": "$1",
-        "description": ""
+        "description": "The **Bundle-UpdateLocation** header specifies a URL where an update for this bundle should come from. If the bundle is updated, this location should be used, if present, to retrieve the updated JAR file."
     },
     {
         "label": "Bundle-Vendor",
         "snippet": "$1",
-        "description": ""
+        "description": "The **Bundle-Vendor** header contains a human-readable description of the bundle vendor."
     },
     {
         "label": "Bundle-Version",
         "snippet": "$1",
-        "description": ""
+        "description": "The **Bundle-Version** header specifies the version of this bundle. _The default value is 0.0.0_."
     },
     {
         "label": "Can-Redefine-Classes",
@@ -133,11 +138,6 @@
         "label": "Content-Type",
         "snippet": "$1",
         "description": ""
-    },
-    {
-        "label": "Created-By",
-        "snippet": "$1",
-        "description": "**Java version** used in build."
     },
     {
         "label": "DynamicImport-Package",
@@ -183,26 +183,6 @@
         "label": "Fragment-Host",
         "snippet": "$1",
         "description": "The **Fragment-Host** header defines the host bundles for this fragment."
-    },
-    {
-        "label": "Implementation-Version",
-        "snippet": "$1",
-        "description": ""
-    },
-    {
-        "label": "Implementation-Vendor",
-        "snippet": "$1",
-        "description": ""
-    },
-    {
-        "label": "Implementation-Vendor-Id",
-        "snippet": "$1",
-        "description": ""
-    },
-    {
-        "label": "Implementation-URL",
-        "snippet": "$1",
-        "description": ""
     },
     {
         "label": "Import-Bundle",
@@ -275,11 +255,6 @@
         "description": ""
     },
     {
-        "label": "Name",
-        "snippet": "$1",
-        "description": ""
-    },
-    {
         "label": "Premain-Class",
         "snippet": "$1",
         "description": ""
@@ -305,32 +280,12 @@
         "description": "Specifies that a bundle requires other bundles to provide a capability."
     },
     {
-        "label": "Sealed",
-        "snippet": "$1",
-        "description": ""
-    },
-    {
         "label": "SHA-Digest",
         "snippet": "$1",
         "description": ""
     },
     {
         "label": "Signature-Version",
-        "snippet": "$1",
-        "description": ""
-    },
-    {
-        "label": "Specification-Title",
-        "snippet": "$1",
-        "description": ""
-    },
-    {
-        "label": "Specification-Version",
-        "snippet": "$1",
-        "description": ""
-    },
-    {
-        "label": "Specification-Vendor",
         "snippet": "$1",
         "description": ""
     },
