@@ -2,7 +2,7 @@
 
 import * as vscode from 'vscode';
 import { getStandardOsgiHeaders } from './headers/osgi';
-import { getBndOsgiHeaders } from './headers/bnd';
+import { getBndOsgiHeaders, getBndInstructionHeaders } from './headers/bnd';
 import { getLiferayOsgiHeaders } from './headers/liferay';
 
 export function activate(context: vscode.ExtensionContext) {
@@ -14,9 +14,13 @@ export function activate(context: vscode.ExtensionContext) {
 
 			const standardOsgiHeaders = getStandardOsgiHeaders();
 			const bndOsgiHeaders = getBndOsgiHeaders();
+			const bndInstructionsHeaders = getBndInstructionHeaders();
 			const liferayOsgiHeaders = getLiferayOsgiHeaders();
 
-			const headers = standardOsgiHeaders.concat(bndOsgiHeaders).concat(liferayOsgiHeaders);
+			const headers = standardOsgiHeaders
+			.concat(bndOsgiHeaders)
+			.concat(bndInstructionsHeaders)
+			.concat(liferayOsgiHeaders);
 
 			headers.forEach(header => {
 				header.insertText = header.label + headerEnd;

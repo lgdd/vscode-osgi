@@ -4,6 +4,9 @@
 	"patterns": [
 		{
 			"include": "#header-name"
+		},
+		{
+			"include": "#instruction-name"
 		}
 	],
 	"repository": {
@@ -13,6 +16,15 @@
 				{
 					"name": "keyword.other.header-name.osgi",
 					"match": "^([A-Z]){1}([a-zA-Z]|-|_|\\d)*(:\\s)"
+				}
+			]
+		},
+		"instruction-name": {
+			"name": "keyword.other.instruction-name.osgi",
+			"patterns": [
+				{
+					"name": "keyword.other.instruction-name.osgi",
+					"match": "^-([a-z]|.|-)*(:\\s)"
 				}
 			]
 		}
