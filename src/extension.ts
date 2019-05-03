@@ -1,16 +1,16 @@
 'use strict';
 
 import * as vscode from 'vscode';
-import { getStandardOsgiHeaders } from './headers/osgi';
-import { getBndOsgiHeaders, getBndInstructionHeaders } from './headers/bnd';
-import { getLiferayOsgiHeaders } from './headers/liferay';
+import { getStandardOsgiHeaders } from './completion/osgi';
+import { getBndOsgiHeaders, getBndInstructionHeaders } from './completion/bnd';
+import { getLiferayOsgiHeaders } from './completion/liferay';
+import { OSGI_HEADER_SUFFIX } from './completion/common';
 
 export function activate(context: vscode.ExtensionContext) {
 
-	let headersProvider = vscode.languages.registerCompletionItemProvider({scheme: 'file', language: 'OSGi'}, {
+	let headersProvider = vscode.languages.registerCompletionItemProvider({ scheme: 'file', language: 'OSGi' }, {
 
 		provideCompletionItems(document: vscode.TextDocument, position: vscode.Position, token: vscode.CancellationToken, context: vscode.CompletionContext) {
-			const headerEnd = ": ";
 
 			const standardOsgiHeaders = getStandardOsgiHeaders();
 			const bndOsgiHeaders = getBndOsgiHeaders();
@@ -18,13 +18,9 @@ export function activate(context: vscode.ExtensionContext) {
 			const liferayOsgiHeaders = getLiferayOsgiHeaders();
 
 			const headers = standardOsgiHeaders
-			.concat(bndOsgiHeaders)
-			.concat(bndInstructionsHeaders)
-			.concat(liferayOsgiHeaders);
-
-			headers.forEach(header => {
-				header.insertText = header.label + headerEnd;
-			});
+				.concat(bndOsgiHeaders)
+				.concat(bndInstructionsHeaders)
+				.concat(liferayOsgiHeaders);
 
 			return headers;
 		}

@@ -1,0 +1,42 @@
+[
+    {
+        "label": "Bnd-AddXmlToTest",
+        "description": ""
+    },
+    {
+        "label": "Bnd-LastModified",
+        "description": ""
+    },
+    {
+        "label": "Bundle-Blueprint",
+        "description": ""
+    },
+    {
+        "label": "Bundle-Contributors",
+        "description": ""
+    },
+    {
+        "label": "Bundle-Developers",
+        "description": ""
+    },
+    {
+        "label": "Conditional-Package",
+        "description": ""
+    },
+    {
+        "label": "Meta-Persistence",
+        "description": ""
+    },
+    {
+        "label": "Service-Component",
+        "description": ""
+    },
+    {
+        "label": "Test-Cases",
+        "description": ""
+    },
+    {
+        "label": "Tool",
+        "description": ""
+    }
+]

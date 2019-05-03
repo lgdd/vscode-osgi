@@ -1,0 +1,14 @@
+[
+    {
+        "label": "Liferay-Service",
+        "description": ""
+    },
+    {
+        "label": "Liferay-Require-SchemaVersion",
+        "description": ""
+    },
+    {
+        "label": "Liferay-JS-Config",
+        "description": ""
+    }
+]

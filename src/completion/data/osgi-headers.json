@@ -1,0 +1,282 @@
+[
+    {
+        "label": "Agent-Class",
+        "description": ""
+    },
+    {
+        "label": "Automatic-Module-Name",
+        "description": ""
+    },
+    {
+        "label": "Boot-Class-Path",
+        "description": ""
+    },
+    {
+        "label": "Bundle-ActivationPolicy",
+        "description": ""
+    },
+    {
+        "label": "Bundle-Activator",
+        "description": ""
+    },
+    {
+        "label": "Bundle-Category",
+        "description": ""
+    },
+    {
+        "label": "Bundle-Classpath",
+        "description": ""
+    },
+    {
+        "label": "Bundle-ContactAddress",
+        "description": ""
+    },
+    {
+        "label": "Bundle-Copyright",
+        "description": ""
+    },
+    {
+        "label": "Bundle-Description",
+        "description": ""
+    },
+    {
+        "label": "Bundle-DocURL",
+        "description": ""
+    },
+    {
+        "label": "Bundle-Icon",
+        "description": ""
+    },
+    {
+        "label": "Bundle-License",
+        "description": ""
+    },
+    {
+        "label": "Bundle-Localization",
+        "description": ""
+    },
+    {
+        "label": "Bundle-ManifestVersion",
+        "description": ""
+    },
+    {
+        "label": "Bundle-Name",
+        "description": ""
+    },
+    {
+        "label": "Bundle-NativeCode",
+        "description": ""
+    },
+    {
+        "label": "Bundle-RequiredExecutionEnvironment",
+        "description": ""
+    },
+    {
+        "label": "Bundle-SymbolicName",
+        "description": ""
+    },
+    {
+        "label": "Bundle-UpdateLocation",
+        "description": ""
+    },
+    {
+        "label": "Bundle-Vendor",
+        "description": ""
+    },
+    {
+        "label": "Bundle-Version",
+        "description": ""
+    },
+    {
+        "label": "Can-Redefine-Classes",
+        "description": ""
+    },
+    {
+        "label": "Can-Retransform-Classes",
+        "description": ""
+    },
+    {
+        "label": "Can-Set-Native-Method-Prefix",
+        "description": ""
+    },
+    {
+        "label": "Class-Path",
+        "description": ""
+    },
+    {
+        "label": "Content-Type",
+        "description": ""
+    },
+    {
+        "label": "Created-By",
+        "description": ""
+    },
+    {
+        "label": "DynamicImport-Package",
+        "description": ""
+    },
+    {
+        "label": "Eclipse-BuddyPolicy",
+        "description": ""
+    },
+    {
+        "label": "Eclipse-BuddBundleShapeyPolicy",
+        "description": ""
+    },
+    {
+        "label": "Eclipse-ExtensibleAPI",
+        "description": ""
+    },
+    {
+        "label": "Eclipse-PlatformFilter",
+        "description": ""
+    },
+    {
+        "label": "Eclipse-RegisterBuddy",
+        "description": ""
+    },
+    {
+        "label": "Export-Package",
+        "description": ""
+    },
+    {
+        "label": "Export-Service",
+        "description": ""
+    },
+    {
+        "label": "Fragment-Host",
+        "description": ""
+    },
+    {
+        "label": "Implementation-Version",
+        "description": ""
+    },
+    {
+        "label": "Implementation-Vendor",
+        "description": ""
+    },
+    {
+        "label": "Implementation-Vendor-Id",
+        "description": ""
+    },
+    {
+        "label": "Implementation-URL",
+        "description": ""
+    },
+    {
+        "label": "Import-Bundle",
+        "description": ""
+    },
+    {
+        "label": "Import-Library",
+        "description": ""
+    },
+    {
+        "label": "Import-Package",
+        "description": ""
+    },
+    {
+        "label": "Import-Service",
+        "description": ""
+    },
+    {
+        "label": "Include-Resource",
+        "description": ""
+    },
+    {
+        "label": "Java-Bean",
+        "description": ""
+    },
+    {
+        "label": "Launcher-Agent-Class",
+        "description": ""
+    },
+    {
+        "label": "Main-Class",
+        "description": ""
+    },
+    {
+        "label": "Magic",
+        "description": ""
+    },
+    {
+        "label": "Manifest-Version",
+        "description": ""
+    },
+    {
+        "label": "MD5-Digest",
+        "description": ""
+    },
+    {
+        "label": "Module-Scope",
+        "description": ""
+    },
+    {
+        "label": "Module-Type",
+        "description": ""
+    },
+    {
+        "label": "Multi-Release",
+        "description": ""
+    },
+    {
+        "label": "Name",
+        "description": ""
+    },
+    {
+        "label": "Premain-Class",
+        "description": ""
+    },
+    {
+        "label": "Private-Package",
+        "description": ""
+    },
+    {
+        "label": "Provide-Capability",
+        "description": ""
+    },
+    {
+        "label": "Require-Bundle",
+        "description": ""
+    },
+    {
+        "label": "Require-Capability",
+        "description": ""
+    },
+    {
+        "label": "Sealed",
+        "description": ""
+    },
+    {
+        "label": "SHA-Digest",
+        "description": ""
+    },
+    {
+        "label": "Signature-Version",
+        "description": ""
+    },
+    {
+        "label": "Specification-Title",
+        "description": ""
+    },
+    {
+        "label": "Specification-Version",
+        "description": ""
+    },
+    {
+        "label": "Specification-Vendor",
+        "description": ""
+    },
+    {
+        "label": "Web-ContextPath",
+        "description": ""
+    },
+    {
+        "label": "Web-DispatcherServletUrlPatterns",
+        "description": ""
+    },
+    {
+        "label": "Web-FilterMappings",
+        "description": ""
+    }
+]

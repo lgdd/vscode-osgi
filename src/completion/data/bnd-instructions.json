@@ -1,0 +1,482 @@
+[
+    {
+        "label": "-augment",
+        "description": ""
+    },
+    {
+        "label": "-baseline",
+        "description": ""
+    },
+    {
+        "label": "-baselinerepo",
+        "description": ""
+    },
+    {
+        "label": "-baselinerepo",
+        "description": ""
+    },
+    {
+        "label": "-builderignore",
+        "description": ""
+    },
+    {
+        "label": "-buildpath",
+        "description": ""
+    },
+    {
+        "label": "-buildrepo",
+        "description": ""
+    },
+    {
+        "label": "-bumppolicy",
+        "description": ""
+    },
+    {
+        "label": "-bundleannotations",
+        "description": ""
+    },
+    {
+        "label": "-cdiannotations",
+        "description": ""
+    },
+    {
+        "label": "-check",
+        "description": ""
+    },
+    {
+        "label": "-classpath",
+        "description": ""
+    },
+    {
+        "label": "-compression",
+        "description": ""
+    },
+    {
+        "label": "-conditionalpackage",
+        "description": ""
+    },
+    {
+        "label": "-conduit",
+        "description": ""
+    },
+    {
+        "label": "-connection-settings",
+        "description": ""
+    },
+    {
+        "label": "-consumer-policy",
+        "description": ""
+    },
+    {
+        "label": "-contract",
+        "description": ""
+    },
+    {
+        "label": "-dependson",
+        "description": ""
+    },
+    {
+        "label": "-deploy",
+        "description": ""
+    },
+    {
+        "label": "-deployrepo",
+        "description": ""
+    },
+    {
+        "label": "-diffignore",
+        "description": ""
+    },
+    {
+        "label": "-diffpackages",
+        "description": ""
+    },
+    {
+        "label": "-digests",
+        "description": ""
+    },
+    {
+        "label": "-distro",
+        "description": ""
+    },
+    {
+        "label": "-donotcopy",
+        "description": ""
+    },
+    {
+        "label": "-dsannotations-options",
+        "description": ""
+    },
+    {
+        "label": "-dsannotations",
+        "description": ""
+    },
+    {
+        "label": "-eeprofile",
+        "description": ""
+    },
+    {
+        "label": "-executable",
+        "description": ""
+    },
+    {
+        "label": "-export",
+        "description": ""
+    },
+    {
+        "label": "-exportcontents",
+        "description": ""
+    },
+    {
+        "label": "-exportreport",
+        "description": ""
+    },
+    {
+        "label": "-extension",
+        "description": ""
+    },
+    {
+        "label": "-failok",
+        "description": ""
+    },
+    {
+        "label": "-fixupmessages",
+        "description": ""
+    },
+    {
+        "label": "-include",
+        "description": ""
+    },
+    {
+        "label": "-includepackage",
+        "description": ""
+    },
+    {
+        "label": "-includeresource",
+        "description": ""
+    },
+    {
+        "label": "-invalidfilenames",
+        "description": ""
+    },
+    {
+        "label": "-javaagent",
+        "description": ""
+    },
+    {
+        "label": "-make",
+        "description": ""
+    },
+    {
+        "label": "-manifest",
+        "description": ""
+    },
+    {
+        "label": "-manifest-name",
+        "description": ""
+    },
+    {
+        "label": "-maven-release",
+        "description": ""
+    },
+    {
+        "label": "-metatype-options",
+        "description": ""
+    },
+    {
+        "label": "-metatype",
+        "description": ""
+    },
+    {
+        "label": "-namesection",
+        "description": ""
+    },
+    {
+        "label": "-nobuildincache",
+        "description": ""
+    },
+    {
+        "label": "-nobundles",
+        "description": ""
+    },
+    {
+        "label": "-nodefaultversion",
+        "description": ""
+    },
+    {
+        "label": "-noee",
+        "description": ""
+    },
+    {
+        "label": "-noextraheaders",
+        "description": ""
+    },
+    {
+        "label": "-nojunit",
+        "description": ""
+    },
+    {
+        "label": "-nojunitosgi",
+        "description": ""
+    },
+    {
+        "label": "-nomanifest",
+        "description": ""
+    },
+    {
+        "label": "-nouses",
+        "description": ""
+    },
+    {
+        "label": "-output",
+        "description": ""
+    },
+    {
+        "label": "-outputmask",
+        "description": ""
+    },
+    {
+        "label": "-package",
+        "description": ""
+    },
+    {
+        "label": "-pedantic",
+        "description": ""
+    },
+    {
+        "label": "-plugin",
+        "description": ""
+    },
+    {
+        "label": "-pluginpath",
+        "description": ""
+    },
+    {
+        "label": "-prepare",
+        "description": ""
+    },
+    {
+        "label": "-preprocessmatchers",
+        "description": ""
+    },
+    {
+        "label": "-privatepackage",
+        "description": ""
+    },
+    {
+        "label": "-profile",
+        "description": ""
+    },
+    {
+        "label": "-provider-policy",
+        "description": ""
+    },
+    {
+        "label": "-releaserepo",
+        "description": ""
+    },
+    {
+        "label": "-remoteworkspace",
+        "description": ""
+    },
+    {
+        "label": "-removeheaders",
+        "description": ""
+    },
+    {
+        "label": "-reportconfig",
+        "description": ""
+    },
+    {
+        "label": "-reportnewer",
+        "description": ""
+    },
+    {
+        "label": "-require-bnd",
+        "description": ""
+    },
+    {
+        "label": "-resolve.effective",
+        "description": ""
+    },
+    {
+        "label": "-resolve.preferences",
+        "description": ""
+    },
+    {
+        "label": "-resourceonly",
+        "description": ""
+    },
+    {
+        "label": "-runblacklist",
+        "description": ""
+    },
+    {
+        "label": "-runbuilds",
+        "description": ""
+    },
+    {
+        "label": "-runbundles",
+        "description": ""
+    },
+    {
+        "label": "-runee",
+        "description": ""
+    },
+    {
+        "label": "-runenv",
+        "description": ""
+    },
+    {
+        "label": "-runframework",
+        "description": ""
+    },
+    {
+        "label": "-runfw",
+        "description": ""
+    },
+    {
+        "label": "-runjdb",
+        "description": ""
+    },
+    {
+        "label": "-runkeep",
+        "description": ""
+    },
+    {
+        "label": "-runnoreferences",
+        "description": ""
+    },
+    {
+        "label": "-runpath",
+        "description": ""
+    },
+    {
+        "label": "-runprogramargs",
+        "description": ""
+    },
+    {
+        "label": "-runproperties",
+        "description": ""
+    },
+    {
+        "label": "-runprovidedcapabilities",
+        "description": ""
+    },
+    {
+        "label": "-runrepos",
+        "description": ""
+    },
+    {
+        "label": "-runrequires",
+        "description": ""
+    },
+    {
+        "label": "-runstorage",
+        "description": ""
+    },
+    {
+        "label": "-runsystemcapabilities",
+        "description": ""
+    },
+    {
+        "label": "-runsystempackages",
+        "description": ""
+    },
+    {
+        "label": "-runtimeout",
+        "description": ""
+    },
+    {
+        "label": "-runtrace",
+        "description": ""
+    },
+    {
+        "label": "-runvm",
+        "description": ""
+    },
+    {
+        "label": "-savemanifest",
+        "description": ""
+    },
+    {
+        "label": "-sign",
+        "description": ""
+    },
+    {
+        "label": "-snapshot",
+        "description": ""
+    },
+    {
+        "label": "-sourcepath",
+        "description": ""
+    },
+    {
+        "label": "-sources",
+        "description": ""
+    },
+    {
+        "label": "-stalecheck",
+        "description": ""
+    },
+    {
+        "label": "-standalone",
+        "description": ""
+    },
+    {
+        "label": "-strict",
+        "description": ""
+    },
+    {
+        "label": "-sub",
+        "description": ""
+    },
+    {
+        "label": "-systemproperties",
+        "description": ""
+    },
+    {
+        "label": "-testcontinuous",
+        "description": ""
+    },
+    {
+        "label": "-tester",
+        "description": ""
+    },
+    {
+        "label": "-testpackages",
+        "description": ""
+    },
+    {
+        "label": "-testpath",
+        "description": ""
+    },
+    {
+        "label": "-testsources",
+        "description": ""
+    },
+    {
+        "label": "-testunresolved",
+        "description": ""
+    },
+    {
+        "label": "-undertest",
+        "description": ""
+    },
+    {
+        "label": "-upto",
+        "description": ""
+    },
+    {
+        "label": "-wab",
+        "description": ""
+    },
+    {
+        "label": "-wablib",
+        "description": ""
+    },
+    {
+        "label": "-workingset",
+        "description": ""
+    }
+]
