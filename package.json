@@ -31,6 +31,13 @@
                 "scopeName": "source.osgi",
                 "path": "./syntaxes/osgi.tmLanguage.json"
             }
+        ],
+        "iconThemes": [
+          {
+            "id": "bnd",
+            "label": "Bnd",
+            "path": "./icons/bnd-icon-theme.json"
+          }
         ]
     },
 	"activationEvents": [
