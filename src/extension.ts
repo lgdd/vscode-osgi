@@ -7,7 +7,7 @@ import { getLiferayOsgiHeaders } from './headers/liferay';
 
 export function activate(context: vscode.ExtensionContext) {
 
-	let headersProvider = vscode.languages.registerCompletionItemProvider('OSGi', {
+	let headersProvider = vscode.languages.registerCompletionItemProvider({scheme: 'file', language: 'OSGi'}, {
 
 		provideCompletionItems(document: vscode.TextDocument, position: vscode.Position, token: vscode.CancellationToken, context: vscode.CompletionContext) {
 			const headerEnd = ": ";
