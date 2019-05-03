@@ -12,7 +12,7 @@
 			"patterns": [
 				{
 					"name": "keyword.other.header-name.osgi",
-					"match": "^([A-Z]){1}([a-zA-Z]|-|_|\\d)*(: )"
+					"match": "^([A-Z]){1}([a-zA-Z]|-|_|\\d)*(:\\s)"
 				}
 			]
 		}
