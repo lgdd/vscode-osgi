@@ -1,42 +1,52 @@
 [
     {
         "label": "Bnd-AddXmlToTest",
-        "description": ""
+        "snippet": "$1",
+        "description": "Add XML resources from the tested bundle to the output of a test report."
     },
     {
         "label": "Bnd-LastModified",
-        "description": ""
+        "snippet": "$1",
+        "description": "**Timestamp** from bnd, aggregated last modified time of its resources."
     },
     {
         "label": "Bundle-Blueprint",
-        "description": ""
+        "snippet": "$1",
+        "description": "The **Bundle-Activator** header specifies the name of the class used to start and stop the bundle."
     },
     {
         "label": "Bundle-Contributors",
-        "description": ""
+        "snippet": "$1",
+        "description": "Lists the bundle contributors according to the Maven bundle-contributors pom entry."
     },
     {
         "label": "Bundle-Developers",
-        "description": ""
+        "snippet": "$1",
+        "description": "Lists the bundle developers according to the Maven bundle-developers pom entry."
     },
     {
         "label": "Conditional-Package",
-        "description": ""
+        "snippet": "$1",
+        "description": "**Recursively add packages** from the class path when referred and when they match one of the package specifications."
     },
     {
         "label": "Meta-Persistence",
-        "description": ""
+        "snippet": "$1",
+        "description": "A **Persistence Bundle** is a bundle that contains the **Meta-Persistence** header. If this header is not present, then this specification does not apply and a JPA Provider should ignore the corresponding bundle."
     },
     {
         "label": "Service-Component",
-        "description": ""
+        "snippet": "$1",
+        "description": "XML documents containing component descriptions must be specified by the Service-Component header in the manifest."
     },
     {
         "label": "Test-Cases",
-        "description": ""
+        "snippet": "$1",
+        "description": "Header to automatically execute tests in the bnd JUnit tester."
     },
     {
         "label": "Tool",
-        "description": ""
+        "snippet": "$1",
+        "description": "**Bnd version** used to build this bundle."
     }
 ]

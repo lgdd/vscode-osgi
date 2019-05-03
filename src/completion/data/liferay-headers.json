@@ -1,14 +1,17 @@
 [
     {
         "label": "Liferay-Service",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "Liferay-Require-SchemaVersion",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "Liferay-JS-Config",
+        "snippet": "$1",
         "description": ""
     }
 ]

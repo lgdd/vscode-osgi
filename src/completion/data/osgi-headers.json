@@ -1,282 +1,352 @@
 [
     {
         "label": "Agent-Class",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "Automatic-Module-Name",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "Boot-Class-Path",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "Bundle-ActivationPolicy",
-        "description": ""
+        "snippet": "$1",
+        "description": "The **Bundle-ActivationPolicy** specifies how the framework should activate the bundle once started."
     },
     {
         "label": "Bundle-Activator",
-        "description": ""
+        "snippet": "$1",
+        "description": "The **Bundle-Activator** header specifies the name of the class used to start and stop the bundle."
     },
     {
         "label": "Bundle-Category",
-        "description": ""
+        "snippet": "$1",
+        "description": "The categories this bundle belongs to, can be set through the BundleCategory annotation."
     },
     {
         "label": "Bundle-Classpath",
-        "description": ""
+        "snippet": "$1",
+        "description": "The **Bundle-ClassPath** header defines a comma-separated list of JAR file path names or directories (inside the bundle) containing classes and resources. The full stop (`'.'` `\\u002E`) specifies the root directory of the bundle's JAR. The full stop is also the snippet"
     },
     {
         "label": "Bundle-ContactAddress",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "Bundle-Copyright",
-        "description": ""
+        "snippet": "$1",
+        "description": "The **Bundle-Copyright** header contains the copyright specification for this bundle. Can be set with the BundleCopyright annotation."
     },
     {
         "label": "Bundle-Description",
-        "description": ""
+        "snippet": "$1",
+        "description": "The **Bundle-Description** header defines a short description of this bundle."
     },
     {
         "label": "Bundle-DocURL",
-        "description": ""
+        "snippet": "$1",
+        "description": "The **Bundle-DocURL** headers must contain a URL pointing to documentation about this bundle."
     },
     {
         "label": "Bundle-Icon",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "Bundle-License",
-        "description": ""
+        "snippet": "$1",
+        "description": "The **Bundle-License** header provides an optional machine readable form of license information."
     },
     {
         "label": "Bundle-Localization",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "Bundle-ManifestVersion",
-        "description": ""
+        "snippet": "2",
+        "description": "The **Bundle-ManifestVersion** is always set to `2`, there is no way to override this."
     },
     {
         "label": "Bundle-Name",
-        "description": ""
+        "snippet": "$1",
+        "description": "The **Bundle-Name** header defines a readable name for this bundle. **This should be a short, human-readable name** that can contain spaces."
     },
     {
         "label": "Bundle-NativeCode",
-        "description": ""
+        "snippet": "$1",
+        "description": "The **Bundle-NativeCode** header contains a specification of native code libraries contained in this bundle."
     },
     {
         "label": "Bundle-RequiredExecutionEnvironment",
-        "description": ""
+        "snippet": "$1",
+        "description": "The **Bundle-RequiredExecutionEnvironment** contains a comma-separated list of execution environments that must be present on the OSGi framework. See Execution Environment on page 44. _This header is deprecated_."
     },
     {
         "label": "Bundle-SymbolicName",
-        "description": ""
+        "snippet": "$1",
+        "description": "The **Bundle-SymbolicName** header specifies a non-localizable name for this bundle. The bundle symbolic name together with a version must identify a unique bundle though it can be installed multiple times in a framework. **The bundle symbolic name should be based on the reverse domain name convention**."
     },
     {
         "label": "Bundle-UpdateLocation",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "Bundle-Vendor",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "Bundle-Version",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "Can-Redefine-Classes",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "Can-Retransform-Classes",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "Can-Set-Native-Method-Prefix",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "Class-Path",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "Content-Type",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "Created-By",
-        "description": ""
+        "snippet": "$1",
+        "description": "**Java version** used in build."
     },
     {
         "label": "DynamicImport-Package",
-        "description": ""
+        "snippet": "$1",
+        "description": "The **DynamicImport-Package** header contains a comma-separated list of package names that should be dynamically imported when needed."
     },
     {
         "label": "Eclipse-BuddyPolicy",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "Eclipse-BuddBundleShapeyPolicy",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "Eclipse-ExtensibleAPI",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "Eclipse-PlatformFilter",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "Eclipse-RegisterBuddy",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "Export-Package",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "Export-Service",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "Fragment-Host",
-        "description": ""
+        "snippet": "$1",
+        "description": "The **Fragment-Host** header defines the host bundles for this fragment."
     },
     {
         "label": "Implementation-Version",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "Implementation-Vendor",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "Implementation-Vendor-Id",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "Implementation-URL",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "Import-Bundle",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "Import-Library",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "Import-Package",
-        "description": ""
+        "snippet": "$1",
+        "description": "The **Import-Package** header declares the imported packages for this bundle."
     },
     {
         "label": "Import-Service",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "Include-Resource",
-        "description": ""
+        "snippet": "$1",
+        "description": "Includes resources, see `-includeresource`."
     },
     {
         "label": "Java-Bean",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "Launcher-Agent-Class",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "Main-Class",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "Magic",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "Manifest-Version",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "MD5-Digest",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "Module-Scope",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "Module-Type",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "Multi-Release",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "Name",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "Premain-Class",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "Private-Package",
-        "description": ""
+        "snippet": "$1",
+        "description": "Specifies what packages to include."
     },
     {
         "label": "Provide-Capability",
-        "description": ""
+        "snippet": "$1",
+        "description": "Specifies that a bundle **provides a set of Capabilities**."
     },
     {
         "label": "Require-Bundle",
-        "description": ""
+        "snippet": "$1",
+        "description": "The **Require-Bundle** header specifies that all exported packages from another bundle must be imported, effectively requiring the public interface of another bundle."
     },
     {
         "label": "Require-Capability",
-        "description": ""
+        "snippet": "$1",
+        "description": "Specifies that a bundle requires other bundles to provide a capability."
     },
     {
         "label": "Sealed",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "SHA-Digest",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "Signature-Version",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "Specification-Title",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "Specification-Version",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "Specification-Vendor",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "Web-ContextPath",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "Web-DispatcherServletUrlPatterns",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "Web-FilterMappings",
+        "snippet": "$1",
         "description": ""
     }
 ]

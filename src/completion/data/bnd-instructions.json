@@ -1,482 +1,602 @@
 [
     {
         "label": "-augment",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-baseline",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-baselinerepo",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-baselinerepo",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-builderignore",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-buildpath",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-buildrepo",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-bumppolicy",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-bundleannotations",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-cdiannotations",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-check",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-classpath",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-compression",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-conditionalpackage",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-conduit",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-connection-settings",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-consumer-policy",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-contract",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-dependson",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-deploy",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-deployrepo",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-diffignore",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-diffpackages",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-digests",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-distro",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-donotcopy",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-dsannotations-options",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-dsannotations",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-eeprofile",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-executable",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-export",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-exportcontents",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-exportreport",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-extension",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-failok",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-fixupmessages",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-include",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-includepackage",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-includeresource",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-invalidfilenames",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-javaagent",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-make",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-manifest",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-manifest-name",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-maven-release",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-metatype-options",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-metatype",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-namesection",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-nobuildincache",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-nobundles",
+        "snippet": "$1",
         "description": ""
     },
     {
-        "label": "-nodefaultversion",
+        "label": "-nosnippetversion",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-noee",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-noextraheaders",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-nojunit",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-nojunitosgi",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-nomanifest",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-nouses",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-output",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-outputmask",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-package",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-pedantic",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-plugin",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-pluginpath",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-prepare",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-preprocessmatchers",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-privatepackage",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-profile",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-provider-policy",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-releaserepo",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-remoteworkspace",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-removeheaders",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-reportconfig",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-reportnewer",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-require-bnd",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-resolve.effective",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-resolve.preferences",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-resourceonly",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-runblacklist",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-runbuilds",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-runbundles",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-runee",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-runenv",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-runframework",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-runfw",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-runjdb",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-runkeep",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-runnoreferences",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-runpath",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-runprogramargs",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-runproperties",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-runprovidedcapabilities",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-runrepos",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-runrequires",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-runstorage",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-runsystemcapabilities",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-runsystempackages",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-runtimeout",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-runtrace",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-runvm",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-savemanifest",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-sign",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-snapshot",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-sourcepath",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-sources",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-stalecheck",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-standalone",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-strict",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-sub",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-systemproperties",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-testcontinuous",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-tester",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-testpackages",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-testpath",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-testsources",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-testunresolved",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-undertest",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-upto",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-wab",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-wablib",
+        "snippet": "$1",
         "description": ""
     },
     {
         "label": "-workingset",
+        "snippet": "$1",
         "description": ""
     }
 ]
