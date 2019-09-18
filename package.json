@@ -2,9 +2,9 @@
     "name": "vscode-osgi",
     "displayName": "OSGi Extension",
     "description": "OSGi / Bnd syntax highlight & completion support for VS Code",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "license": "MIT",
-    "publisher": "github.com/lgdd",
+    "publisher": "lgdd",
     "engines": {
         "vscode": "^1.33.0"
     },
