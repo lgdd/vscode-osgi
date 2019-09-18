@@ -1,6 +1,6 @@
 {
     "name": "vscode-osgi",
-    "displayName": "OSGi Extension",
+    "displayName": "OSGi",
     "description": "OSGi / Bnd syntax highlight & completion support for VS Code",
     "version": "1.0.0",
     "license": "MIT",
