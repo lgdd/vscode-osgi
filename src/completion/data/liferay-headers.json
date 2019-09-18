@@ -11,7 +11,7 @@
     },
     {
         "label": "Liferay-JS-Config",
-        "snippet": "$1",
+        "snippet": "${1:/META-INF/resources/config.js}",
         "description": ""
     }
 ]

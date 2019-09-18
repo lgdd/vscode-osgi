@@ -1,72 +1,62 @@
 [
     {
-        "label": "Agent-Class",
-        "snippet": "$1",
-        "description": ""
-    },
-    {
-        "label": "Automatic-Module-Name",
-        "snippet": "$1",
-        "description": ""
-    },
-    {
-        "label": "Boot-Class-Path",
-        "snippet": "$1",
-        "description": ""
-    },
-    {
         "label": "Bundle-ActivationPolicy",
-        "snippet": "$1",
+        "snippet": "${1:lazy}",
         "description": "The **Bundle-ActivationPolicy** specifies how the framework should activate the bundle once started."
     },
     {
         "label": "Bundle-Activator",
-        "snippet": "$1",
+        "snippet": "${1:com.acme.fw.Activator}",
         "description": "The **Bundle-Activator** header specifies the name of the class used to start and stop the bundle."
     },
     {
         "label": "Bundle-Category",
-        "snippet": "$1",
+        "snippet": "${1:cat1, cat2}",
         "description": "The categories this bundle belongs to, can be set through the BundleCategory annotation."
     },
     {
         "label": "Bundle-Classpath",
-        "snippet": "$1",
+        "snippet": "${1:/lib/http.jar,.}",
         "description": "The **Bundle-ClassPath** header defines a comma-separated list of JAR file path names or directories (inside the bundle) containing classes and resources. The full stop (`'.'` `\\u002E`) specifies the root directory of the bundle's JAR. The full stop is also the snippet"
     },
     {
         "label": "Bundle-ContactAddress",
-        "snippet": "$1",
-        "description": ""
+        "snippet": "${1}",
+        "description": "Recommended to provide the framework vendor's contact address."
     },
     {
         "label": "Bundle-Copyright",
-        "snippet": "$1",
+        "snippet": "${1}",
         "description": "The **Bundle-Copyright** header contains the copyright specification for this bundle. Can be set with the BundleCopyright annotation."
     },
     {
         "label": "Bundle-Description",
-        "snippet": "$1",
+        "snippet": "${1:Some Description}",
         "description": "The **Bundle-Description** header defines a short description of this bundle."
     },
     {
+        "label": "Bundle-Developers",
+        "snippet": "${1:jdoe}; email=${2:john.doe@example.com}; name=\"${3:John Doe}\"; organization=\"${4:Example}\"",
+        "description": "Lists the bundle developers according to the Maven bundle-developers pom entry."
+    },
+    {
         "label": "Bundle-DocURL",
-        "snippet": "$1",
+        "snippet": "http://${1}",
         "description": "The **Bundle-DocURL** headers must contain a URL pointing to documentation about this bundle."
     },
     {
         "label": "Bundle-Icon",
-        "snippet": "$1",
+        "snippet": "${1:/icons/logo.png};size=${2:64}",
         "description": "The _optional_ **Bundle-Icon** header provides a list of URLs to icons representing this bundle in different sizes. The URLs are interpreted as relative to the bundle."
     },
     {
         "label": "Bundle-License",
-        "snippet": "$1",
+        "snippet": "${1:Apache-2.0}; link=\"${2:http://opensource.org/licenses/apache2.0.php}\"",
         "description": "The **Bundle-License** header provides an optional machine readable form of license information."
     },
     {
         "label": "Bundle-Localization",
-        "snippet": "$1",
+        "snippet": "${1:OSGI-INF/l10n/bundle}",
         "description": "The **Bundle-Localization** header contains the location in the bundle where localization files can be found. The default value is OSGI-INF/l10n/bundle."
     },
     {
@@ -76,232 +66,92 @@
     },
     {
         "label": "Bundle-Name",
-        "snippet": "$1",
+        "snippet": "${1:My Bundle}",
         "description": "The **Bundle-Name** header defines a readable name for this bundle. **This should be a short, human-readable name** that can contain spaces."
     },
     {
         "label": "Bundle-NativeCode",
-        "snippet": "$1",
+        "snippet": "${1:/lib/http.DLL}; osname=${2:QNX}; osversion=${3:3.1}",
         "description": "The **Bundle-NativeCode** header contains a specification of native code libraries contained in this bundle."
     },
     {
         "label": "Bundle-RequiredExecutionEnvironment",
-        "snippet": "$1",
+        "snippet": "${1:CDC-1.0/Foundation-1.0}",
         "description": "The **Bundle-RequiredExecutionEnvironment** contains a comma-separated list of execution environments that must be present on the OSGi framework. See Execution Environment on page 44. _This header is deprecated_."
     },
     {
         "label": "Bundle-SCM",
-        "snippet": "$1",
+        "snippet": "url=https://${1}, connection=scm:git:https://${2}.git, developerConnection=scm:git:git@github.com:${3}.git",
         "description": "The **Bundle-SCM** header provides an optional machine readable form of information about the source code of the bundle. This header is purely informational and must not be processed by the OSGi Framework."
     },
     {
         "label": "Bundle-SymbolicName",
-        "snippet": "$1",
+        "snippet": "${1:com.acme.daffy}",
         "description": "The **Bundle-SymbolicName** header specifies a non-localizable name for this bundle. The bundle symbolic name together with a version must identify a unique bundle though it can be installed multiple times in a framework. **The bundle symbolic name should be based on the reverse domain name convention**."
     },
     {
         "label": "Bundle-UpdateLocation",
-        "snippet": "$1",
+        "snippet": "http://${1}",
         "description": "The **Bundle-UpdateLocation** header specifies a URL where an update for this bundle should come from. If the bundle is updated, this location should be used, if present, to retrieve the updated JAR file."
     },
     {
         "label": "Bundle-Vendor",
-        "snippet": "$1",
+        "snippet": "${1:}",
         "description": "The **Bundle-Vendor** header contains a human-readable description of the bundle vendor."
     },
     {
         "label": "Bundle-Version",
-        "snippet": "$1",
+        "snippet": "${1:0}.${2:0}.${3:0}",
         "description": "The **Bundle-Version** header specifies the version of this bundle. _The default value is 0.0.0_."
     },
     {
-        "label": "Can-Redefine-Classes",
-        "snippet": "$1",
-        "description": ""
-    },
-    {
-        "label": "Can-Retransform-Classes",
-        "snippet": "$1",
-        "description": ""
-    },
-    {
-        "label": "Can-Set-Native-Method-Prefix",
-        "snippet": "$1",
-        "description": ""
-    },
-    {
-        "label": "Class-Path",
-        "snippet": "$1",
-        "description": ""
-    },
-    {
-        "label": "Content-Type",
-        "snippet": "$1",
-        "description": ""
-    },
-    {
         "label": "DynamicImport-Package",
-        "snippet": "$1",
+        "snippet": "${1:com.acme.plugin.*}",
         "description": "The **DynamicImport-Package** header contains a comma-separated list of package names that should be dynamically imported when needed."
     },
     {
-        "label": "Eclipse-BuddyPolicy",
-        "snippet": "$1",
-        "description": ""
-    },
-    {
-        "label": "Eclipse-BuddBundleShapeyPolicy",
-        "snippet": "$1",
-        "description": ""
-    },
-    {
-        "label": "Eclipse-ExtensibleAPI",
-        "snippet": "$1",
-        "description": ""
-    },
-    {
-        "label": "Eclipse-PlatformFilter",
-        "snippet": "$1",
-        "description": ""
-    },
-    {
-        "label": "Eclipse-RegisterBuddy",
-        "snippet": "$1",
-        "description": ""
-    },
-    {
         "label": "Export-Package",
-        "snippet": "$1",
-        "description": ""
+        "snippet": "${1:org.osgi.util.tracker};version=${2:1.3}",
+        "description": "The **Export-Package** header contains a declaration of exported packages."
     },
     {
         "label": "Export-Service",
-        "snippet": "$1",
-        "description": ""
+        "snippet": "${1:org.osgi.service.log.LogService}",
+        "description": "**Deprecated.**"
     },
     {
         "label": "Fragment-Host",
-        "snippet": "$1",
+        "snippet": "${1:org.eclipse.swt}; bundle-version=\"${2:[3.0.0,4.0.0)}\"",
         "description": "The **Fragment-Host** header defines the host bundles for this fragment."
     },
     {
-        "label": "Import-Bundle",
-        "snippet": "$1",
-        "description": ""
-    },
-    {
-        "label": "Import-Library",
-        "snippet": "$1",
-        "description": ""
-    },
-    {
         "label": "Import-Package",
-        "snippet": "$1",
+        "snippet": "${1:org.osgi.util.tracker,org.osgi.service.io};version=${2:1.4}",
         "description": "The **Import-Package** header declares the imported packages for this bundle."
     },
     {
         "label": "Import-Service",
-        "snippet": "$1",
-        "description": ""
-    },
-    {
-        "label": "Include-Resource",
-        "snippet": "$1",
-        "description": "Includes resources, see `-includeresource`."
-    },
-    {
-        "label": "Java-Bean",
-        "snippet": "$1",
-        "description": ""
-    },
-    {
-        "label": "Launcher-Agent-Class",
-        "snippet": "$1",
-        "description": ""
-    },
-    {
-        "label": "Main-Class",
-        "snippet": "$1",
-        "description": ""
-    },
-    {
-        "label": "Magic",
-        "snippet": "$1",
-        "description": ""
-    },
-    {
-        "label": "Manifest-Version",
-        "snippet": "$1",
-        "description": ""
-    },
-    {
-        "label": "MD5-Digest",
-        "snippet": "$1",
-        "description": ""
-    },
-    {
-        "label": "Module-Scope",
-        "snippet": "$1",
-        "description": ""
-    },
-    {
-        "label": "Module-Type",
-        "snippet": "$1",
-        "description": ""
-    },
-    {
-        "label": "Multi-Release",
-        "snippet": "$1",
-        "description": ""
-    },
-    {
-        "label": "Premain-Class",
-        "snippet": "$1",
-        "description": ""
-    },
-    {
-        "label": "Private-Package",
-        "snippet": "$1",
-        "description": "Specifies what packages to include."
+        "snippet": "${1:org.osgi.service.log.LogService}",
+        "description": "**Deprecated.**"
     },
     {
         "label": "Provide-Capability",
-        "snippet": "$1",
+        "snippet": "${1:com.acme.dict}; from=${2:nl}; to=${3:de}; version:Version=${4:1.2}",
         "description": "Specifies that a bundle **provides a set of Capabilities**."
     },
     {
         "label": "Require-Bundle",
-        "snippet": "$1",
+        "snippet": "${1:com.acme.chess}",
         "description": "The **Require-Bundle** header specifies that all exported packages from another bundle must be imported, effectively requiring the public interface of another bundle."
     },
     {
         "label": "Require-Capability",
-        "snippet": "$1",
+        "snippet": "${1:osgi.ee}; filter:=${2:\"(&(osgi.ee=AcmeMin)(version=1.1))\"}",
         "description": "Specifies that a bundle requires other bundles to provide a capability."
     },
     {
-        "label": "SHA-Digest",
-        "snippet": "$1",
-        "description": ""
-    },
-    {
-        "label": "Signature-Version",
-        "snippet": "$1",
-        "description": ""
-    },
-    {
         "label": "Web-ContextPath",
-        "snippet": "$1",
-        "description": ""
-    },
-    {
-        "label": "Web-DispatcherServletUrlPatterns",
-        "snippet": "$1",
-        "description": ""
-    },
-    {
-        "label": "Web-FilterMappings",
-        "snippet": "$1",
+        "snippet": "${1:/frontend-js-web}",
         "description": ""
     }
 ]

@@ -20,19 +20,24 @@
         "description": "Lists the bundle contributors according to the Maven bundle-contributors pom entry."
     },
     {
-        "label": "Bundle-Developers",
-        "snippet": "$1",
-        "description": "Lists the bundle developers according to the Maven bundle-developers pom entry."
-    },
-    {
         "label": "Conditional-Package",
         "snippet": "$1",
         "description": "**Recursively add packages** from the class path when referred and when they match one of the package specifications."
     },
     {
+        "label": "Include-Resource",
+        "snippet": "$1",
+        "description": "Includes resources, see `-includeresource`."
+    },
+    {
         "label": "Meta-Persistence",
         "snippet": "$1",
         "description": "A **Persistence Bundle** is a bundle that contains the **Meta-Persistence** header. If this header is not present, then this specification does not apply and a JPA Provider should ignore the corresponding bundle."
+    },
+    {
+        "label": "Private-Package",
+        "snippet": "$1",
+        "description": "Specifies what packages to include."
     },
     {
         "label": "Service-Component",
