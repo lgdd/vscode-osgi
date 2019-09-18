@@ -1,9 +1,10 @@
 {
-    "name": "osgi",
-    "displayName": "OSGi",
-    "description": "OSGi / Bnd support for VS Code",
+    "name": "vscode-osgi",
+    "displayName": "OSGi Extension",
+    "description": "OSGi / Bnd syntax highlight & completion support for VS Code",
     "version": "0.0.1",
     "license": "MIT",
+    "publisher": "github.com/lgdd",
     "engines": {
         "vscode": "^1.33.0"
     },
