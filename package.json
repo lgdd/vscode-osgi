@@ -5,6 +5,10 @@
     "version": "1.0.0",
     "license": "MIT",
     "publisher": "lgdd",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lgdd/vscode-osgi.git"
+    },
     "engines": {
         "vscode": "^1.33.0"
     },
