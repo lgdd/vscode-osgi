@@ -14,12 +14,13 @@ export function activate(context: vscode.ExtensionContext) {
 			const standardOsgiHeaders = getStandardOsgiHeaders();
 			const bndOsgiHeaders = getBndOsgiHeaders();
 			const bndInstructionsHeaders = getBndInstructionHeaders();
-			const liferayOsgiHeaders = getLiferayOsgiHeaders();
+			const liferayOsgiHeaders = getLiferayOsgiInstructions();
 
 			const headers = standardOsgiHeaders
 				.concat(bndOsgiHeaders)
 				.concat(bndInstructionsHeaders)
-				.concat(liferayOsgiHeaders);
+				.concat(liferayOsgiHeaders)
+				.concat(liferayOsgiInstructions);
 
 			return headers;
 		}
