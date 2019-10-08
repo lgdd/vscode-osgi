@@ -1,1 +1,12 @@
-
+[
+    {
+        "label": "-jsp",
+        "snippet": "$1",
+        "description": ""
+    },
+    {
+        "label": "-plugin.jsp",
+        "snippet": "com.liferay.ant.bnd.jsp.JspAnalyzerPlugin",
+        "description": ""
+    }
+]
