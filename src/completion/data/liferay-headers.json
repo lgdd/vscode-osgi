@@ -13,5 +13,20 @@
         "label": "Liferay-JS-Config",
         "snippet": "${1:/META-INF/resources/config.js}",
         "description": ""
+    },
+    {
+        "label": "Liferay-Releng-Module-Group-Title",
+        "snippet": "$1",
+        "description": ""
+    },
+        {
+        "label": "Liferay-Releng-Module-Group-Description",
+        "snippet": "$1",
+        "description": ""
+    },
+        {
+        "label": "Web-ContextPath",
+        "snippet": "$1",
+        "description": ""
     }
 ]
