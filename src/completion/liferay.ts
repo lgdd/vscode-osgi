@@ -15,10 +15,7 @@ export function getLiferayOsgiInstructions() {
     let completionInstructions = [];
     instrutions.forEach(instruction => {
         let completionInstruction = new vscode.CompletionItem(instruction.label);
-        completionInstruction.insertText = new vscode.SnippetString(completionInstruction.label + OSGI_HEADER_SUFFIX + instruction.snippet);
-        if (instruction.label === '-plugin') {
-            completionInstruction.insertText = new vscode.SnippetString(instruction.label + '.$1' + OSGI_HEADER_SUFFIX + "$2")
-        }
+        completionInstruction.insertText = new vscode.SnippetString(completionInstruction.label + OSGI_HEADER_SUFFIX + instruction.snippet); 
         completionInstruction.documentation = new vscode.MarkdownString(instruction.description);
         completionInstructions.push(completionInstruction);
     });
