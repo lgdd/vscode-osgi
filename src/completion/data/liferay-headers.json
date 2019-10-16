@@ -1,6 +1,21 @@
 [
+   {
+        "label": "Liferay-Configuration-Path",
+        "snippet": "$1",
+        "description": ""
+    },
     {
         "label": "Liferay-Service",
+        "snippet": "$1",
+        "description": ""
+    },
+    {
+        "label": "Liferay-Modules-Compat-Adapters",
+        "snippet": "$1",
+        "description": ""
+    },
+    {
+        "label": "DynamicImport-Package",
         "snippet": "$1",
         "description": ""
     },
