@@ -2,7 +2,7 @@
     "name": "vscode-osgi",
     "displayName": "OSGi",
     "description": "OSGi / Bnd syntax highlight & completion support for VS Code",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "license": "MIT",
     "publisher": "lgdd",
     "repository": {
@@ -36,13 +36,6 @@
                 "scopeName": "source.osgi",
                 "path": "./syntaxes/osgi.tmLanguage.json"
             }
-        ],
-        "iconThemes": [
-          {
-            "id": "bnd",
-            "label": "Bnd",
-            "path": "./icons/bnd-icon-theme.json"
-          }
         ]
     },
 	"activationEvents": [
