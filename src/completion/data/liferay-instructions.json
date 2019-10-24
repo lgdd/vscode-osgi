@@ -1,0 +1,51 @@
+[
+    {
+        "label": "-jsp",
+        "snippet": "$1",
+        "description": ""
+    },
+    {
+        "label": "-plugin.service",
+        "snippet": "$1",
+        "description": ""
+    },
+    {
+        "label": "-plugin.spring",
+        "snippet": "$1",
+        "description": ""
+    },
+    {
+        "label": "-sass",
+        "snippet": "$1",
+        "description": ""
+    },{
+        "label": "-liferay-service-xml",
+        "snippet": "$1",
+        "description": ""
+    },
+     {
+        "label": "-plugin.bundle",
+        "snippet": "$1",
+        "description": ""
+    },
+     {
+        "label": "-plugin.npm",
+        "snippet": "$1",
+        "description": ""
+    },
+     {
+        "label": "-plugin.resourcebundle",
+        "snippet": "$1",
+        "description": ""
+    },
+     {
+        "label": "-plugin.sass",
+        "snippet": "$1",
+        "description": ""
+    },
+    {
+        "label": "-plugin.jsp",
+        "snippet": "com.liferay.ant.bnd.jsp.JspAnalyzerPlugin",
+        "description": ""
+    }
+]

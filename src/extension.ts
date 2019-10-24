@@ -3,7 +3,7 @@
 import * as vscode from 'vscode';
 import { getStandardOsgiHeaders } from './completion/osgi';
 import { getBndOsgiHeaders, getBndInstructionHeaders } from './completion/bnd';
-import { getLiferayOsgiHeaders } from './completion/liferay';
+import { getLiferayOsgiHeaders, getLiferayOsgiInstructions } from './completion/liferay';
 
 export function activate(context: vscode.ExtensionContext) {
 
@@ -15,11 +15,13 @@ export function activate(context: vscode.ExtensionContext) {
 			const bndOsgiHeaders = getBndOsgiHeaders();
 			const bndInstructionsHeaders = getBndInstructionHeaders();
 			const liferayOsgiHeaders = getLiferayOsgiHeaders();
+			const liferayOsgiInstructions = getLiferayOsgiInstructions();
 
 			const headers = standardOsgiHeaders
 				.concat(bndOsgiHeaders)
 				.concat(bndInstructionsHeaders)
-				.concat(liferayOsgiHeaders);
+				.concat(liferayOsgiHeaders)
+				.concat(liferayOsgiInstructions);
 
 			return headers;
 		}
