@@ -10,7 +10,7 @@
         "url": "https://github.com/lgdd/vscode-osgi.git"
     },
     "engines": {
-        "vscode": "^1.33.0"
+        "vscode": "^2023.0.0"
     },
     "categories": [
         "Programming Languages"
